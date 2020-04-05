@@ -63,7 +63,13 @@ namespace ConsoleAplication
         {
             static void Main(string[] args)
             {
-            
+                Book book=new Book("Vafo","Foteh Niyozi","novel");
+                Book book1=new Book("C# 4.0","Helbert Shildt","Programming");
+                Book book2=new Book("Devoni Zamon","Loiq Sherali","Poem");
+                book.Show();
+                book1.Show();
+                book2.Show();
+                Console.ReadLine();
             }
          }
     }
